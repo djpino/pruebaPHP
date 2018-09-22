@@ -1,0 +1,35 @@
+@import "_vars.scss";
+body{
+  background: $black;
+}
+#wrapper{
+  margin-top: 30px;
+}
+#albums{
+  h1{
+    color: $white;
+    font-size: 2em;
+  }
+  .card{
+    height: 100%;
+    a{
+      padding: 0px 10px;
+      /*background: blue;*/
+      color: $white;
+      border-radius: 10px;
+      text-decoration: none;
+      text-transform: lowercase;
+    }
+  }
+}
+
+#artist{
+  color: $white;
+  h1{
+    color: $white;
+    font-size: 1.8em;
+  }
+  img{
+    border-radius: 50%;
+  }
+}

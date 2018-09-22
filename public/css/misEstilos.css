@@ -1,0 +1,32 @@
+/*Margins*/
+.mbottom20 {
+  margin-bottom: 20px; }
+
+body {
+  background: #000000; }
+
+#wrapper {
+  margin-top: 30px; }
+
+#albums h1 {
+  color: #ffffff;
+  font-size: 2em; }
+#albums .card {
+  height: 100%; }
+  #albums .card a {
+    padding: 0px 10px;
+    /*background: blue;*/
+    color: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: lowercase; }
+
+#artist {
+  color: #ffffff; }
+  #artist h1 {
+    color: #ffffff;
+    font-size: 1.8em; }
+  #artist img {
+    border-radius: 50%; }
+
+/*# sourceMappingURL=misEstilos.css.map */
